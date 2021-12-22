@@ -10,12 +10,6 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 MONTH_LIST = ['all','january', 'february', 'march', 'april', 'may', 'june']
 WEEKDAY_LIST = ['all','sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
 
-def system_exit(city_month_day):
-    """Stops the program if the user types quit.
-    """
-    if city_month_day == 'quit':
-        raise SystemExit 
-
 
 def get_filters():
     """
@@ -262,6 +256,12 @@ def clear_console():
     if os.name in ('nt', 'dos'):
         command = 'cls'
     os.system(command)
+    
+def system_exit(city_month_day):
+    """Stops the program if the user types quit.
+    """
+    if city_month_day == 'quit':
+        raise SystemExit     
 
 if __name__ == "__main__":
     clear_console()
