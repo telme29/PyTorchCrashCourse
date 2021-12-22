@@ -255,7 +255,7 @@ def main():
 
 
 def clear_console():
-    """Clear the console
+    """Clear the console to have clean shell
     """    
     command = 'clear'
     # If Machine is running on Windows, use cls
