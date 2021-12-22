@@ -17,3 +17,6 @@ A few notebooks on deep learning with PyTorch. Instructions from installing PyTo
 Here's a PyTorch implementation of [a character-level RNN](https://github.com/mcleonard/pytorch-charRNN) that can generate text.
 
 ### Bikeshare Python File
+- This file will read the user input
+- Afterwards it will calculate e.g. "Displays statistics on the most frequent times of travel."
+
