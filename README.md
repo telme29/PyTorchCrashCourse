@@ -19,4 +19,5 @@ Here's a PyTorch implementation of [a character-level RNN](https://github.com/mc
 ### Bikeshare Python File
 - This file will read the user input
 - Afterwards it will calculate e.g. "Displays statistics on the most frequent times of travel."
+- The author is Aykan Aydin and based in Darmstadt in Germany
 
