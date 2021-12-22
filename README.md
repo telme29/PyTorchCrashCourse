@@ -21,3 +21,6 @@ Here's a PyTorch implementation of [a character-level RNN](https://github.com/mc
 - Afterwards it will calculate e.g. "Displays statistics on the most frequent times of travel."
 - The author is Aykan Aydin and based in Darmstadt in Germany
 
+#### Needed Data files
+- The csv files are not uploaded to the repo!
+
